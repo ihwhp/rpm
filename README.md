@@ -10,7 +10,8 @@ wget http://rpmfind.net/linux/centos/8-stream/AppStream/x86_64/os/Packages/mc-4.
 ```
 
 ## bash_history
- wget https://nginx.org/packages/rhel/8/SRPMS/nginx-1.16.1-1.el8.ngx.src.rpm
+```
+    1  wget https://nginx.org/packages/rhel/8/SRPMS/nginx-1.16.1-1.el8.ngx.src.rpm
     2  rpm -i nginx-1.14.1-1.el7_4.ngx.src.rpm
     3  rpm -i nginx-1.16.1-1.el8.ngx.src.rpm
     4  wget https://www.openssl.org/source/openssl-1.1.1p.tar.gz
@@ -67,4 +68,4 @@ EOF
    48  yum list | grep otus
    49  yum install mc
    50  yum list --showduplicates | grep mc
-
+```
