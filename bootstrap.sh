@@ -10,11 +10,11 @@
 #__EOF
 
 #Install repo
-dnf install -y epel-release
+#dnf install -y epel-release
 
 
 #Install utils
-dnf install -y nano ncdu tree redhat-lsb-core wget rpmdevtools rpm-build createrepo yum-utils openssl-devel zlib-devel pcre-devel gcc
+dnf install -y nano tree redhat-lsb-core wget rpmdevtools rpm-build createrepo yum-utils openssl-devel zlib-devel pcre-devel gcc
 
 #Config
 
